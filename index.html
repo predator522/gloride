@@ -3,152 +3,255 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechSploit - Reliable Web Hosting</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-
-        header nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        header nav ul li {
-            display: inline-block;
-            margin-right: 20px;
-        }
-
-        header nav a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        main {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-        }
-
-        section {
-            background-color: #f7f7f7;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1, h2 {
-            color: #333;
-            margin-bottom: 10px;
-        }
-
-        button {
-            background-color: #333;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #444;
-        }
-
-        table {
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-        th, td {
-            border: 1px solid #ddd;
-            padding: 10px;
-            text-align: left;
-        }
-
-        th {
-            background-color: #f0f0f0;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-            clear: both;
-        }
-    </style>
+    <meta name="description" content="TechSploit – The Ultimate Pro Application for Hacks by GR_MEDIA">
+    <title>TechSploit - The Ultimate Hacking Toolkit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" defer></script>
 </head>
 <body>
-    <header>
+    <!-- Navigation -->
+    <div class="header">
+        <h1>Tech Sploit</h1>
         <nav>
-            <ul>
-                <li><a href="                    
+            <ul class="nav-links">
+                <li><a href="Gloride.html">Home</a></li>
                 <li><a href="#features">Features</a></li>
-                <li><a href="                          
-                <li><a href="#support">Support</a></li>
+                <li><a href="https://chat.whatsapp.com/DydvTZ9e1aD9iXmK4o0aIZ">Explore Our WhatsApp Channel</a></li>
+                <li><a href="https://chat.whatsapp.com/DydvTZ9e1aD9iXmK4o0aIZ">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="https://i.imgur.com/rfBRvm9.jpeg">Guide</a></li>
             </ul>
         </nav>
-    </header>
-    <main>
-        <section id="home">
-            <h1>Welcome to TechSploit</h1>
-            <p>Reliable web hosting for your online success</p>
-            <button>Get Started</button>
-        </section>
-        <section id="features">
-            <h2>Our Features</h2>
-            <ul>
-                <li>Fast and Secure Servers</li>
-                <li>24/7 Technical Support</li>
-                <li>Scalable Plans</li>
-                <li>Free Domain Registration</li>
-            </ul>
-        </section>
-        <section id="pricing">
-            <h2>Pricing Plans</h2>
-            <table>
-                <tr>
-                    <th>Plan</th>
-                    <th>Price</th>
-                    <th>Features</th>
-                </tr>
-                <tr>
-                    <td>Basic</td>
-                    <td>R50/month</td>
-                    <td>1GB RAM, 10GB Storage</td>
-                </tr>
-                <tr>
-                    <td>Premium</td>
-                    <td>R100/month</td>
-                    <td>2GB RAM, 20GB Storage</td>
-                </tr>
-                <tr>
-                    <td>Enterprise</td>
-                    <td>R200/month</td>
-                    <td>4GB RAM, 40GB Storage</td>
-                </tr>
-            </table>
-        </section>
-        <section id="support">
-            <h2>Support</h2>
-            <p>Contact us 24/7 for technical support</p>
-            <button>Contact Us</button>
-        </section>
-    </main>
+        <a href="https://chat.whatsapp.com/DydvTZ9e1aD9iXmK4o0aIZ" class="cta">Get in Touch</a>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="content">
+            <h2>The Ultimate Hacking Toolkit</h2>
+            <p>Advanced tools for web hosting, Bot deployment, Modded Apps, Bot files and more...</p>
+            <a href="#features" class="btn">Explore Features</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <h2>Key Features:</h2>
+        <div class="feature-box" data-target="bot-files.html">
+            <i class="fas fa-folder"></i>
+            <h3>Bot Files</h3>
+            <p>Get bot files from our Telegram Sources</p>
+        </div>
+        <div class="feature-box" data-target="social-media.html">
+            <i class="fas fa-user-secret"></i>
+            <h3>Social Media Boosting</h3>
+            <p>Get Followers with just one click</p>
+        </div>
+        <div class="feature-box" data-target="premium-apps.html">
+            <i class="fas fa-cogs"></i>
+            <h3>Premium Apps</h3>
+            <p>Get WhatsApp premium immune antiban here</p>
+        </div>
+        <div class="feature-box" data-target="modded-apks.html">
+            <i class="fas fa-download"></i>
+            <h3>Download Modded Apks</h3>
+            <p>Click here to go to our modded appstore</p>
+        </div>
+        <div class="feature-box" data-target="bot-deployment.html">
+            <i class="fas fa-robot"></i>
+            <h3>Bot Deployment</h3>
+            <p>Click Here to get free bot panels and Deploy</p>
+        </div>
+        <div class="feature-box" data-target="e-sim.html">
+            <i class="fas fa-brain"></i>
+            <h3>Online E sim card</h3>
+            <p>Get your virtual number</p>
+        </div>
+        <div class="feature-box" data-target="courses.html">
+            <i class="fas fa-graduation-cap"></i>
+            <h3>Online Premium Courses</h3>
+            <p>Get free online courses</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About TechSploit</h2>
+        <p>TechSploit is an advanced hacking toolkit developed by GR_MEDIA for security experts, penetration testers, ethical hackers, and digital forensics professionals.</p>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 TechSploit</p>
+        <p>&copy; 2025 TechSploit by GR_MEDIA. All Rights Reserved.</p>
     </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("active");
+        }
+
+        // Feature navigation handler
+        document.querySelectorAll('.feature-box').forEach(box => {
+            box.addEventListener('click', function() {
+                window.location.href = this.dataset.target;
+            });
+        });
+    </script>
+
+    <style>
+        /* Original CSS Preserved */
+        body {
+            font-family: montserrat;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            text-align: center; 
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10%;
+            background: linear-gradient(90deg, #0ff 0%, #f0f 100%);
+            color: white;
+            position: fixed;
+            width: 80%;
+            top: 0;
+            left: 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            font-weight: bold;
+            font-size: 24px;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+        }
+        .nav-links li {
+            margin: 0 15px;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+        .nav-links a:hover {
+            color: #00bcd4;
+        }
+        .cta {
+            background: #00bcd4;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .cta:hover {
+            background: #008c9e;
+        }
+        .menu-toggle {
+            font-size: 50px;
+            cursor: pointer;
+            display: none;
+        }
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                width: 100%;
+                background: #0a192f;
+                text-align: center;
+                padding: 10px 0;
+            }
+            .nav-links.active {
+                display: flex;
+            }
+            .nav-links li {
+                margin: 10px 0;
+            }
+            .menu-toggle {
+                display: block;
+            }
+            .cta {
+                scale: 0;
+            }
+        }
+        .hero {
+            height: 100vh;
+            background: url('https://source.unsplash.com/1600x900/?technology,hacking') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: linear-gradient(45deg, rgb(57, 255, 20), rgb(255, 16, 240));
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 0 5px rgb(255, 120, 233), 0 0 10px rgb(255, 105, 198), 0 0 15px rgb(255, 122, 222);
+            border-radius: 5px;
+            transition: 0.9s;
+        }
+        .btn:hover {
+            font-weight: 700;
+            transition: 0.5s;
+            background: rgb(255, 0, 170);
+            scale: 1.2;
+            color: white;
+        }
+        section {
+            padding: 60px 20px;
+        }
+        #features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .feature-box {
+            background: #22222200;
+            margin: 15px;
+            padding: 20px;
+            width: 300px;
+            border-radius: 10px;
+            text-align: center;
+            border-bottom: 5px solid rgb(255, 0, 157);
+            cursor: pointer;
+        }
+        .feature-box:hover {
+            box-shadow: 0 0 5px rgb(255, 0, 212), 0 0 10px rgb(255, 0, 157), 0 0 15px rgb(255, 2, 192);
+        }
+        .feature-box i {
+            font-size: 2rem;
+            color: #0f0;
+        }
+        #features h2 {
+            color: rgb(255, 225, 235);
+            text-shadow: -1px 3px 2px rgba(255, 192, 203, 0.445);
+        }
+        footer {
+            background: #000;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
 </body>
 </html>
